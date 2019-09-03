@@ -1,0 +1,6 @@
+/*
+ * nombre: Gerardo Ayala Juarez
+ * tema del programa:
+ * descripcion:
+ * fecha: @date
+ */
