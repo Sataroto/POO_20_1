@@ -9,7 +9,7 @@ package ejercicios;
 public class Circulo {
     //atributos
     float radio=5;
-    float pi=3.1416f;
+    static float pi=3.1416f;
     //Metodos
     float calcularArea(){
         float area = pi*radio*radio;

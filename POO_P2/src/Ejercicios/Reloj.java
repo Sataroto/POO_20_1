@@ -7,6 +7,9 @@
  * fecha: 23 de Agosto 2019
  */
 package Ejercicios;
+
+import java.util.Calendar;
+
 public class Reloj {
     private int segundo, hora, minuto;
     
@@ -35,6 +38,11 @@ public class Reloj {
             this.hora = hora;
         }
     }
+    public static String devolverHoraActual(){
+        Calendar c = Calendar.getInstance();
+        String hora = c.get(Calendar.HOUR)+":"+c.get(Calendar.MINUTE)+":"+c.get(Calendar.SECOND);
+        return hora;
+    }
     public void ImprimirHora(){
         System.out.println("La hora Guardada es: "+ this.hora+ ":"+this.minuto+":"+this.segundo);
     }
@@ -42,7 +50,7 @@ public class Reloj {
        Reloj Hora1 = new Reloj();
        Reloj Hora2 = new Reloj();
        Reloj Hora3 = new Reloj();
-       
+       System.out.println(Reloj.devolverHoraActual());
        Hora1.AsignarHora(23);
        Hora1.AsignarMinuto(59);
        Hora1.AsignarSegundo(59);
