@@ -11,9 +11,6 @@ package ejercico3;
  */
 public class hola {
     public static void main(String[] aggg){
-        ConvertidorCadena carac = new ConvertidorCadena("hola");
-        carac.
-         Object jaj;
                 
     }
     
